@@ -1,0 +1,65 @@
+# Byte-compiled / optimized / C-extensions
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments (Including your current RTTS_env)
+RTTS_env/
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables & Secrets (CRITICAL: Protects GEMINI_API_KEY)
+.env
+.env.local
+.env.*.local
+*.env
+
+# Model Weights, Large Checkpoints & Local Caches
+# (Avoid pushing multi-gigabyte models into Git)
+models/
+checkpoints/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+.cache/
+huggingface/
+
+# Audio Recordings & Raw Stream Dumps
+*.wav
+*.mp3
+*.pcm
+*.flac
+*.m4a
+*.ogg
+recordings/
+audio_dumps/
+
+# Logs & Runtime State
+*.log
+logs/
+*.pid
+
+# Testing & Type Checking
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# IDE & Editor Configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-Specific Artifacts (Windows & macOS)
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+.DS_Store
